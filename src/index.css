@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --animate-spin-slow: spin 12s linear infinite;
+}
+
+@keyframes scale-up {
+  0% { transform: scale(0.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-scale-up {
+  animation: scale-up 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom retro glowing layouts */
+.neon-glow-green {
+  box-shadow: 0 0 25px rgba(52, 211, 153, 0.25);
+}
+
+.neon-glow-purple {
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.15);
+}
+
+/* Immersive background texture */
+.immersive-dots {
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+

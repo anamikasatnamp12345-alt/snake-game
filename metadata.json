@@ -1,0 +1,6 @@
+{
+  "name": "Snake Game",
+  "description": "A modern, responsive Snake Game with retro arcade aesthetics and a self-contained HTML downloader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
